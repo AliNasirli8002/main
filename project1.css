@@ -1,0 +1,775 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+.overall{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(guh.png);
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 120px;
+    justify-content: space-between;
+    align-items: center;
+    color: #8D81AC;
+}
+
+.img_container{
+    content: url(gorkio.png)
+}
+
+.navbar:hover{
+    color: white;
+}
+
+.img_container:hover{
+    content: url(gorkglow.png);
+}
+
+.left{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.left>p{
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.right{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.buynow{
+    display: flex;
+    width: 145px;
+    height: 29px;
+    color: white;
+    background-color: #8D81AC;
+    padding: 4px 7px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buynow:hover{
+    color: #8D81AC;
+    background-color: white;
+}
+
+.title{
+    display: flex;
+    padding: 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.title>h1{
+    color: white;
+    font-weight: 700;
+    font-size: 5.20em;
+}
+
+.title>div{
+    font-size: 30px;
+    color: #8D81AC;
+    font-family: "Lato";
+}
+
+.title>p{
+    font-size: 1em;
+    color: #848E97;
+}
+
+.bottom{
+    padding: 353px 0px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.download{
+    display: flex;
+    width: 390px;
+    height: 62px;
+    background-color: #8D81AC;
+    color: white;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.download:hover{
+    width: 387px;
+    height: 59px;
+    border: 2px solid #8D81AC;
+    color: #8D81AC;
+    background-color: white;
+}
+
+.bottom>p{
+    font-size: 14px;
+    color: #848E97;
+}
+
+.info{
+    padding: 250px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #635C73;
+    gap: 15px;
+}
+
+.info>h1{
+    font-size: 4em;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid>h2{
+    width: 50%;
+    font-size: 21px;
+    font-family: "Lato";
+    color: #323232;
+    text-align: center;
+}
+
+.imagefork{
+    content: url(info.png);
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 70px;
+}
+
+.featuresL{
+    display: flex;
+    flex-direction: column;
+    gap: -50px;
+}
+
+.first{
+    display: flex;
+    width: 33vw;
+    flex-direction: row;
+    padding-left: 90px;
+    gap: 5px;
+    padding-right: 225px;
+}
+
+.first>img{
+    width: 111px;
+    height: 64px;
+}
+
+.sep{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sep>h1{
+    font-size: 16px;
+    font-weight: 400;
+    color: #323232;
+}
+
+.sep>p{
+    font-size: 14px;
+    color:#848E97;
+}
+
+.second{
+    display: flex;
+    width: 33vw;
+    flex-direction: row;
+    padding: 90px;
+    gap: 24px;
+}
+
+.second>img{
+    width: 90px;
+    height: 80px;
+}
+
+.third{
+    display: flex;
+    width: 33vw;
+    flex-direction: row;
+    padding-left: 100px;
+    gap: 43px;
+}
+
+.third>img{
+    width: 60px;
+    height: 84px;
+}
+
+.fourth{
+    display: flex;
+    width: 33vw;
+    padding-left: 90px;
+    gap: 40px;
+    padding-top: 100px;
+}
+
+.fourth>img{
+    width: 71px;
+    height: 71px;
+}
+
+.featuresR::before{
+    content: "<Here is what you get>";
+    font-size: 48px;
+    font-weight: 700;
+    color:#8D81AC
+}
+
+.featuresL::before{
+    display: none;
+    content: "<Here is what you get>";
+    font-size: 4em;
+    font-weight: 700;
+    color:#8D81AC
+}
+
+.featuresR>img{
+    width: 700px;
+    height: 519px;
+}
+
+.testimonials{
+    background-image: url(testimon.png);
+    background-size: 100vw;
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.testimonials>h1{
+    font-size: 4em;
+    font-weight: 700;
+    color: white;
+}
+
+.gibberish{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    gap: 30px;
+}
+
+.gibberish>p{
+    font-family: "Lato";
+    size: 14px;
+    color: #A291A5;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    padding: 90px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 60px;
+}
+
+.smashing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.smashing>p{
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+.codrops{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.codrops>p{
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+.doubleu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.doubleu>p{
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+.pixelbuddha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.pixelbuddha>p{
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+.creativebloq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.creativebloq>p{
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+.tnw{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.tnw>p{
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+.line{
+    width: 70%;
+    border-top: 3px solid rgba(100, 87, 102, 1);
+}
+
+.subscription{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-image: url(bag2.png);
+    padding-top: 100px;
+    align-items: center;
+}
+
+.subscription>h1{
+    font-weight: 700;
+    font-size: 4em;
+    color: white;
+}
+
+.pricing{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+.students{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 257px;
+    height: 457px;
+    background-color: #FFFFFF35;
+}
+
+.professional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 257px;
+    height: 457px;
+    background-color: #FFFFFF35;
+}
+
+.enterprise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 257px;
+    height: 457px;
+    background-color: #FFFFFF35;
+}
+
+.top1{
+    display: flex;
+    width: 257px;
+    height: 97px;
+    background-color: #FFFFFF15;
+    align-items: center;
+    justify-content: center;
+}
+
+.top1>p{
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+.bottom1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.bottom1>h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+}
+
+.bottom1>h2{
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+.lineprice{
+    width: 60px;
+    height: 5px;
+    background-color: #8D81AC;
+}
+
+.benefits>p{
+    font-weight: 400;
+    font-size: 16px;
+    color: white
+}
+
+.purchase{
+    width: 160px;
+    height: 42px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF15;
+    color: white;
+}
+
+.purchase>p{
+    font-size: 15px;
+}
+
+.bottom12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.agency{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 299px;
+    height: 560px;
+    background-color: #463048;
+}
+
+.top2{
+    display: flex;
+    width: 299px;
+    height: 111px;
+    background-color: #00000011;
+    align-items: center;
+    justify-content: center;
+}
+
+.top2>p{
+    font-size: 24px;
+    color: white;
+}
+
+.bottom2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.top21{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.top21>h1{
+    font-size: 82px;
+    color: white;
+}
+
+.top21>h2{
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+.bottom22{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.bottom22>.purchase{
+    width: 190px;
+    height: 52px;
+}
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        height: 15%;
+        background-color: rgb(20, 20, 20);
+    }
+
+    .header{
+        background-size: auto;
+    }
+
+    .title{
+        gap: 15px;
+    }
+
+    .title>h1{
+        font-size: 2em;
+    }
+
+    .title>div{
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .title>p{
+        font-size: 0.75em;
+    }
+
+    .right>p{
+        display: none;
+    }
+
+    .bottom{
+        padding: 415px;
+        gap: 15px;
+    }
+
+    .download{
+        width: 290px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .info{
+        padding: 150px 0;
+    }
+
+    .info>h1{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .mid>h2{
+        width: 80%;
+        font-size: 0.8em;
+    }
+
+    .imagefork{
+        content: url(buttons1.png);
+    }
+
+    .imagefork2{
+        content: url(buttons2.png);
+    }
+
+    .features{
+        flex-direction: column;
+    }
+
+    .featuresR::before{
+        display: none;
+    }
+
+    .featuresR>img{
+        width: 100%;
+    }
+
+    .featuresL::before{
+        display: initial;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .featuresL{
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first{
+        align-items: center;
+        width: 80%;
+        flex-direction: column;
+        padding: 30px 0 0 0;
+        gap: 15px;
+    }
+
+    .second{
+        align-items: center;
+        width: 80%;
+        flex-direction: column;
+        padding: 20px 0 0 0;
+        gap: 15px;
+    }
+
+    .third{
+        align-items: center;
+        width: 80%;
+        flex-direction: column;
+        padding: 20px 0 0 0;
+        gap: 15px;
+    }
+
+    .fourth{
+        align-items: center;
+        width: 80%;
+        flex-direction: column;
+        padding: 20px 0 0 0;
+        gap: 15px;
+    }
+
+    .sep>h1{
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .sep>p{
+        font-size: 0.7em;
+        text-align: center;
+    }
+
+    .testimonials>h1{
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .smashing{
+        text-align: center;
+    }
+
+    .codrops{
+        text-align: center;
+    }
+
+    .doubleu{
+        text-align: center;
+    }
+
+    .pixelbuddha{
+        text-align: center;
+    }
+
+    .creativebloq{
+        text-align: center;
+    }
+
+    .tnw{
+        text-align: center;
+    }
+
+    .right{
+        width: 80%;
+        display: none;
+    }
+
+    .subscription{
+        padding-top: 20px;
+    }
+
+    .subscription>h1{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .pricing{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .container{
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    .subscrption>h1{
+        font-size: 3em;
+        align-self: center;
+    }
+}

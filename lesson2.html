@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            table,td,th{
+                border: 1px solid black;
+
+            }
+        </style>
+    </head>
+    <body>
+        <form action="">
+            <table>
+                <tr>
+                    <td>Control Type</td>
+                    <td>Data</td>
+                    <td>Control</td>
+                </tr>
+                <tr>
+                    <td>Text box</td>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" id="name" placeholder="Enter name:"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><label for="pass">Password:</label></td>
+                    <td><input type="password" id="pass"></td>
+                </tr>
+                <tr>
+                    <td>Text area</td>
+                    <td><label for="e">Address:</label></td>
+                    <td><textarea id="e" name="example" placeholder="Enter address"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Drop down list</td>
+                    <td><label for="area">Area:</label></td>
+                    <td>
+                        <select name="a" id="area">
+                            <option value="left">left</option>
+                            <option value="center">center</option>
+                            <option value="right">right</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Check box</td>
+                    <td>Hobbies:</td>
+                    <td>
+                        <input type="checkbox" id="hob1">
+                        <label for="hob1">Sport</label><br>
+                        <input type="checkbox" id="hob2">
+                        <label for="hob2">Reading</label><br>
+                        <input type="checkbox" id="hob3">
+                        <label for="hob3">T.V.</label><br>
+                        <input type="checkbox" id="hob4">
+                        <label for="hob4">Internet</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Radio Buttons</td>
+                    <td>Gender:</td>
+                    <td>
+                        <fieldset>
+                            <input type="radio" id="gender" name="gender">
+                            <label for="gender">Male</label><br>
+                            <input type="radio" id="gender" name="gender">
+                            <label for="gender">Female</label>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>File Upload</td>
+                    <td>Your image:</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>Buttons</td>
+                    <td>Actions:</td>
+                    <td>
+                        <input type="submit">
+                        <input type="reset">
+                        <button type="button">Button</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
