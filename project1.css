@@ -744,8 +744,16 @@
         text-align: center;
     }
 
-    .right{
+    .gibberish{
+        width: 100%;
+        padding: 70px;
+    }
+
+    .gibberish>p{
         width: 80%;
+    }
+
+    .right{
         display: none;
     }
 
@@ -766,6 +774,7 @@
     .container{
         grid-template-rows: repeat(6, 1fr);
         grid-template-columns: 1fr;
+        padding-top: 60px;
     }
 
     .subscrption>h1{
